@@ -1,0 +1,54 @@
+/* Write your CSS here */
+
+.main {
+  background-color: #93c5fd;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  height: 25vh;
+  width: 50vh;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1 {
+  margin-top: 0px;
+  font-size: 24px;
+  font-family: roboto;
+  color: #323f4b;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.select {
+  height: 24px;
+  font-weight: bold;
+  margin-right: 4px;
+  font-family: roboto;
+  border-color: #cbd2d9;
+}
+
+.p1 {
+  margin: 0px;
+  font-family: roboto;
+}
+
+.p2 {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: bold;
+  color: #1e293b;
+}
